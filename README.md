@@ -17,7 +17,8 @@ First, we need the following components to carry out the project:
 - `VNC` app for our device (RVNC Viewer on the Play Store) in which we are going to see the GUI of our OS
 - `Termux` app for our device (to establish the SSH connection and commands, it's like our "PC terminal" but for Android)
 - Connection to the `same Wi-Fi network` (between the tablet and the Raspberry Pi) --> En este caso utilize la red de datos moviles de mi celular.
-### *Importante*: en caso de usar esta conexion de datos moviles, configurarla y ponerla con una banda de 2.4 GHz, ya que la Raspberry Pi no utiliza 5 GHz.
+
+👉 ***Importante:*** en caso de usar esta conexion de datos moviles, configurarla y ponerla con una banda de 2.4 GHz, ya que la Raspberry Pi no utiliza 5 GHz.
 
 ---
 
