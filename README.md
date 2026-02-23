@@ -36,7 +36,11 @@ Once you have everything you need, proceed as follows:
 - Y por ultimo, debemos marcar para que se active la opcion de `Enable SSH` junto con la sub-opcion de `Use password authentication`, y le damos `Next`.
 - Le damos en `Write` y debemos esperar unos minutos. Con esto ya tendremos configurada nuestra tarjeta SD.
 
-### 🗃️ 2. *Raspberry Pi Zero 2 W initialization*
+### 📟 2. *Raspberry Pi Zero 2 W initialization*
+Ya configurada nuestra tarjeta SD, la introduciremos en nuestra placa Raspberry Pi. Ante de conectarla a la alimentacion, tenemos que asegurarnos de haber configurado nuestra red wifi correctamente, donde se conectaran nuestros 2 dispositivos (verificar que sea conexion con banda 2.4 GHz y que la red tenga la misma SSID y password que colocamos en el instalador de la Raspberry Pi). Asegurada esa parte, prendemos la red wifi, esperamos unos minutos, y procedemos a alimentar nuestra placa Raspberry.
+
+👉 ***Importante:*** Tener cuidado
+
 
 ### 🗃️ 3. *Android Apps Installation*
 Para completar la conexion entre estos 2 dispositivos necesitaremos las siguientes aplicaciones android:
