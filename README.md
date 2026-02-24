@@ -18,7 +18,7 @@ First, we need the following components to carry out the project:
 - `Termux` app for our device (to establish the SSH connection and commands, it's like our "PC terminal" but for Android)
 - Connection to the `same Wi-Fi network` (between the tablet and the Raspberry Pi) --> En este caso utilice la red de datos moviles de mi celular.
 
-👉 ***Importante:*** en caso de usar esta conexion de datos moviles, configurarla y ponerla con una banda de 2.4 GHz, ya que la Raspberry Pi no utiliza 5 GHz.
+👉 ***Important:*** If using this mobile data connection, configure it and set it to the 2.4 GHz band, as the Raspberry Pi does not use 5 GHz.
 
 ---
 
