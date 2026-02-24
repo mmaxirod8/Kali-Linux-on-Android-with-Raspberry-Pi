@@ -43,13 +43,13 @@ Once our SD card is configured, we'll insert it into our Raspberry Pi board. Bef
 
 
 ### 🗃️ 3. *Android Apps Installation & Execution*
-Para completar la conexion entre estos 2 dispositivos necesitaremos las siguientes aplicaciones Android:
-- Descargar `Termux`, que nos sirve de terminal de comandos para controlar la Raspberry Pi desde nuestro dispositivo Android (con esta app nos bastaria, si tenemos conocimientos de comandos Linux, para manejar la Raspberry Pi). Con esta app actualizaremos la terminal en ambos dispositivos y haremos la conexion ssh. Los pasos a seguir una vez instalada son:
+To complete the connection between these two devices, we will need the following Android applications:
+- Download `Termux`, which serves as a command-line terminal to control the Raspberry Pi from our Android device (this app alone would be sufficient, if we have knowledge of Linux commands, to manage the Raspberry Pi). With this app, we will update the terminal on both devices and establish the SSH connection. The steps to follow once installed are:
 
-  --> En el dispositivo Android ejecutar los siguientes comandos:
-    * `pkg update && pkg upgrade` *(actualizamos terminal)*
+  --> On the Android device, run the following commands:
+    * `pkg update && pkg upgrade` *(we update terminal)*
     * `pkg install openssh`
-    * `ssh username@192.168.XX.XX` *(username = el que le asignamos a la Raspberry Pi en el instalador) @ (IP de la Raspberry Pi que salga en la red wifi con X = completar con digito que salga, si es red wifi de datos moviles saldra una IP con caracteristica XX.XX.XXX.XX en vez de XXX.XXX.XX.XX)*
+    * `ssh username@192.168.XX.XX` *(username = the one we assigned to the Raspberry Pi in the installer) @ (Raspberry Pi IP address that appears on the wifi network with X = complete with the digit that appears; if it is a mobile data wifi network, an IP address with the characteristic XX.XX.XXX.XX will appear instead of XXX.XXX.XX.XX)*
     
   --> Una vez completado hasta aqui, nos conectara con la Raspberry Pi y procederemos a ejecutar los siguientes comandos en su terminal:
     * `sudo apt update` *(actualizamos terminal)*
