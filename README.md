@@ -42,7 +42,7 @@ Ya configurada nuestra tarjeta SD, la introduciremos en nuestra placa Raspberry 
 👉 ***Importante:*** En mi caso, al haber usado como red wifi mis datos moviles de mi celular (hotspot), si usan este metodo, deben de tener cuidado al momento de haber alimentado la Raspberry Pi y luego haberla conectado a la red wifi. Si la desenchufamos (quitar alimentacion) y la volvemos a conectar, mientras las red wifi esta activada, como Kali Linux genera MAC's aleatorias y diferentes en su arranque, nuestra red de datos moviles no reconocera nuestra placa Raspberry Pi y saldra una direccion MAC conectada en vez de el `hostname` que le habiamos asignado en el instalador (tampoco saldra su IP). Por lo que, para solucionar esto, debemos de re-isntalar el `OS` con la misma configuracion en la SD y de ahi, volver a colocarla en la placa de desarrollo.
 
 
-### 🗃️ 3. *Android Apps Installation*
+### 🗃️ 3. *Android Apps Installation & Execution*
 Para completar la conexion entre estos 2 dispositivos necesitaremos las siguientes aplicaciones Android:
 - Descargar `Termux`, que nos sirve de terminal de comandos para controlar la Raspberry Pi desde nuestro dispositivo Android (con esta app nos bastaria, si tenemos conocimientos de comandos Linux, para manejar la Raspberry Pi). Con esta app actualizaremos la terminal en ambos dispositivos y haremos la conexion ssh. Los pasos a seguir una vez instalada son:
 
@@ -57,7 +57,7 @@ Para completar la conexion entre estos 2 dispositivos necesitaremos las siguient
     * `vncserver` *(ejecutamos el servicio de VNC en la Raspberry Pi)*
     
 - Luego, descargamos `VNC`, que sirve para poder usar nuestro dispositivo Android como monitor de la Raspberry Pi.
-    * Para esto solo debemos entrar a la aplicacion en nuestro dispositivo, registrarnos con una cuenta, seguido a ello tocar en el simbolo `+`, y colocar un nombre cualquiera y la direccion IP de nuestra Raspberry Pi con un `:1` al final, es decir, (en mi caso de red wifi) `XX.XX.XXX.XX:1`
+    * Para esto solo debemos entrar a la aplicacion en nuestro dispositivo, registrarnos con una cuenta, seguido a ello tocar en el simbolo `+`, y colocar un nombre cualquiera y la direccion IP de nuestra Raspberry Pi con un `:1` al final, es decir, (en mi caso de red wifi) `XX.XX.XXX.XX:1`.
 
-- Y listo ✅ ya podremos ver como una computadora en nuestro dispositivo Android
+- Y listo ✅ ya podremos ver como una computadora en nuestro dispositivo Android.
 
