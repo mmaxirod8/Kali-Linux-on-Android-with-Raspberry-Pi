@@ -51,13 +51,13 @@ To complete the connection between these two devices, we will need the following
     * `pkg install openssh`
     * `ssh username@192.168.XX.XX` *(username = the one we assigned to the Raspberry Pi in the installer) @ (Raspberry Pi IP address that appears on the wifi network with X = complete with the digit that appears; if it is a mobile data wifi network, an IP address with the characteristic XX.XX.XXX.XX will appear instead of XXX.XXX.XX.XX)*
     
-  --> Una vez completado hasta aqui, nos conectara con la Raspberry Pi y procederemos a ejecutar los siguientes comandos en su terminal:
-    * `sudo apt update` *(actualizamos terminal)*
-    * `sudo apt install tightvncserver` *(descargamos el servicio de VNC en la placa)*
-    * `vncserver` *(ejecutamos el servicio de VNC en la Raspberry Pi)*
+  --> Once completed up to this point, we will connect to the Raspberry Pi and proceed to execute the following commands in its terminal:
+    * `sudo apt update` *(we update terminal)*
+    * `sudo apt install tightvncserver` *(We downloaded the VNC service onto the board)*
+    * `vncserver` *(We run the VNC service on the Raspberry Pi)*
     
-- Luego, descargamos `VNC`, que sirve para poder usar nuestro dispositivo Android como monitor de la Raspberry Pi.
-    * Para esto solo debemos entrar a la aplicacion en nuestro dispositivo, registrarnos con una cuenta, seguido a ello tocar en el simbolo `+`, y colocar un nombre cualquiera y la direccion IP de nuestra Raspberry Pi con un `:1` al final, es decir, (en mi caso de red wifi) `XX.XX.XXX.XX:1`.
+- Next, we downloaded `VNC`, which allows us to use our Android device as a monitor for the Raspberry Pi.
+    * To do this, we just need to enter the application on our device, register with an account, then tap on the `+` symbol, and enter any name and the IP address of our Raspberry Pi with a `:1` at the end, that is, (in my case of wifi network) `XX.XX.XXX.XX:1`.
 
 - Y listo ✅ ya podremos ver como una computadora a nuestra Raspberry Pi con Kali Linux en nuestro dispositivo Android.
 
