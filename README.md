@@ -1,8 +1,9 @@
 # Kali Linux on Android with Raspberry Pi Zero 2 W --> Hacking without a "PC"
 ### 📌 Here you can see how I implemented a Raspberry Pi Zero 2 W with Kali Linux OS (for this board) using a Samsung tablet Tab S6 Lite 2022 Edition as terminal/monitor with VNC & Termux
 
-
+<p align="center">
 <img src="https://github.com/user-attachments/assets/0d1251fb-096a-48b1-bab8-cdc030bb3567" width="400">
+</p>
 
 ---
 
@@ -19,6 +20,11 @@ First, we need the following components to carry out the project:
 - Connection to the `same Wi-Fi network` (between the tablet and the Raspberry Pi) --> En este caso utilice la red de datos moviles de mi celular.
 
 👉 ***Important:*** If using this mobile data connection, configure it and set it to the 2.4 GHz band, as the Raspberry Pi does not use 5 GHz.
+
+
+<p align="center">
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/2e1b3f0f-a52f-40e8-a7bd-dbb78dce595f" />
+</p>
 
 ---
 
