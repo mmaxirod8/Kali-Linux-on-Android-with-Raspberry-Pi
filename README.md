@@ -17,7 +17,7 @@ First, we need the following components to carry out the project:
 - `Tablet or mobile` (Android) device (in this case we used Samsung Tab S6 Lite 2022 version)
 - `VNC` app for our device (RVNC Viewer on the Play Store) in which we are going to see the GUI of our OS
 - `Termux` app for our device (to establish the SSH connection and commands, it's like our "PC terminal" but for Android)
-- Connection to the `same Wi-Fi network` (between the tablet and the Raspberry Pi) --> En este caso utilice la red de datos moviles de mi celular.
+- Connection to the `same Wi-Fi network` (between the tablet and the Raspberry Pi) --> In this case, I used my phone's mobile data network.
 
 👉 ***Important:*** If using this mobile data connection, configure it and set it to the 2.4 GHz band, as the Raspberry Pi does not use 5 GHz.
 
