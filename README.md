@@ -20,7 +20,7 @@ First, we need the following components to carry out the project:
 - `Tablet or mobile` (Android) device (in this case we used Samsung Tab S6 Lite 2022 version)
 - `VNC` app for our device (RVNC Viewer on the Play Store) in which we are going to see the GUI of our OS
 - `Termux` app for our device (to establish the SSH connection and commands, it's like our "PC terminal" but for Android)
-- Connection to the `same Wi-Fi network` (between the tablet and the Raspberry Pi) --> In this case, I used my phone's mobile data network.
+- Connection to the `same Wi-Fi network` (there has to be the same Wi-Fi network between the tablet and the Raspberry Pi) --> In this case, I used my phone's mobile data network for both.
 
 👉 ***Important:*** If using this mobile data connection, configure it and set it to the 2.4 GHz band, as the Raspberry Pi does not use 5 GHz.
 
@@ -66,7 +66,7 @@ To complete the connection between these two devices, we will need the following
     * `vncserver` *(We run the VNC service on the Raspberry Pi)*
     
 - Next, we downloaded `VNC`, which allows us to use our Android device as a monitor for the Raspberry Pi.
-    * To do this, we just need to enter the application on our device, register with an account, then tap on the `+` symbol, and enter any name and the IP address of our Raspberry Pi with a `:1` at the end, that is, (in my case of wifi network) `XX.XX.XXX.XX:1`.
+    * To do this, we just need to enter the application on our device, register with an account, then tap on the `+` symbol, and enter any name and the IP address of our Raspberry Pi with a `:1` at the end. The format is (in my case of my mobile data as my wifi network) `XX.XX.XXX.XX:1`.
 
 - And that's it! ✅ Now we can see our Raspberry Pi with Kali Linux as a computer on our Android device.
 
