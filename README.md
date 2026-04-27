@@ -87,7 +87,7 @@ To complete the connection between these two devices, we will need the following
 
 <br>
 
-## Actualizacion 26/04/2026
+## Actualizacion 26/04/2026 - Error 404 en Raspberry Imager & Kali Linux OS Flashing (Fallo en los servidores donde se aloja el OS a instalar)
 
 
 Nuevo
