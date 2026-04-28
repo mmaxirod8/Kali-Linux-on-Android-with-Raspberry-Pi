@@ -87,10 +87,12 @@ To complete the connection between these two devices, we will need the following
 
 <br>
 
-## 🚩 Actualizacion 26/04/2026 - Error 404 en Raspberry Imager & Kali Linux OS Flashing (Fallo en los servidores donde se aloja el OS a instalar)
+## 🚩 Actualizacion 26/04/2026 - Error 404 en Raspberry Imager con Kali Linux OS y Raspberry Pi Zero 2 W
 
 
-👉 Nuevo fallo en Raspberry Imager
+👉 Nuevo fallo en Raspberry Imager: Al momento de querer instalar, en una placa Raspberry Pi Zero 2 W, el sistema operativo de Kali Linux que nos ofrece la misma aplicacion de instalador de imagenes de OS de Raspberry, ocurre un error 404. Esto se debe a que, hasta la fecha (26/04/2026), hay problemas con los servidores que le proporcionan a Raspberry Imager dicha imagen del sistema operativo de Kali Linux.
+
+Solucion?
 
 <br>
 
