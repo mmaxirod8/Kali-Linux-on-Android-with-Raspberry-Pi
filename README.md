@@ -95,7 +95,7 @@ To complete the connection between these two devices, we will need the following
 ✅ Solution? 
 
  - Download a Kali Linux (ARM) image for the Raspberry Pi Zero 2 W (which is 64-bit) from the official Kali Linux website.
- - And then, install it using the Raspberry Imager (selecting the option to install a custom OS `Use custom`, and clicking on the image of the OS we want, which must have the extension `nombre_del_sistema_operativo_y_version.img.xz`) 
+ - And then, install it using the Raspberry Imager (selecting the option to install a custom OS `Use custom`, and clicking on the image of the OS we want, which must have the extension `OS_name_&_version.img.xz`) 
  - Another optional app for flashing the OS onto the motherboard is `BalenaEtcher` [optional]
 
 
